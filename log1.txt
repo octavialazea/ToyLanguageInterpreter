@@ -1,0 +1,2310 @@
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int v; int x; int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int x; int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10), int v]
+--Symbol Table--
+	{}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int x; int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10), int v]
+--Symbol Table--
+	{}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int x; int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int x; int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10), int x]
+--Symbol Table--
+	{v=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10), int x]
+--Symbol Table--
+	{v=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=0, x=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ int y; v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=0, x=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10), int y]
+--Symbol Table--
+	{v=0, x=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10), int y]
+--Symbol Table--
+	{v=0, x=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ v=0; repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10), v=0]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10), v=0]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3); x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), repeat ( fork(  Print(v);v=v-1);v=v+1)until (v==3)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10),   fork(  Print(v);v=v-1);v=v+1;WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10),   fork(  Print(v);v=v-1);v=v+1;WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1},  fork(  Print(v);v=v-1);v=v+1]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1},  fork(  Print(v);v=v-1);v=v+1]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1, fork(  Print(v);v=v-1)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1, fork(  Print(v);v=v-1)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	2
+--Execution Stack--
+	[  Print(v);v=v-1]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	2
+--Execution Stack--
+	[  Print(v);v=v-1]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	2
+--Execution Stack--
+	[v=v-1,  Print(v)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	2
+--Execution Stack--
+	[v=v-1,  Print(v)]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1},  fork(  Print(v);v=v-1);v=v+1]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	2
+--Execution Stack--
+	[v=v-1]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1},  fork(  Print(v);v=v-1);v=v+1]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	2
+--Execution Stack--
+	[v=v-1]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1, fork(  Print(v);v=v-1)]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	2
+--Execution Stack--
+	[]
+--Symbol Table--
+	{v=-1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1, fork(  Print(v);v=v-1)]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	3
+--Execution Stack--
+	[  Print(v);v=v-1]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	3
+--Execution Stack--
+	[  Print(v);v=v-1]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	3
+--Execution Stack--
+	[v=v-1,  Print(v)]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	3
+--Execution Stack--
+	[v=v-1,  Print(v)]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1},  fork(  Print(v);v=v-1);v=v+1]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	3
+--Execution Stack--
+	[v=v-1]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1},  fork(  Print(v);v=v-1);v=v+1]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	3
+--Execution Stack--
+	[v=v-1]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1, fork(  Print(v);v=v-1)]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	3
+--Execution Stack--
+	[]
+--Symbol Table--
+	{v=0, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1, fork(  Print(v);v=v-1)]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	4
+--Execution Stack--
+	[  Print(v);v=v-1]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}, v=v+1]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	4
+--Execution Stack--
+	[  Print(v);v=v-1]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}]
+--Symbol Table--
+	{v=3, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	4
+--Execution Stack--
+	[v=v-1,  Print(v)]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10), WHILE(v!=3){ fork(  Print(v);v=v-1);v=v+1}]
+--Symbol Table--
+	{v=3, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	4
+--Execution Stack--
+	[v=v-1,  Print(v)]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=3, x=0, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	4
+--Execution Stack--
+	[v=v-1]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ x=1; nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=3, x=0, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	4
+--Execution Stack--
+	[v=v-1]
+--Symbol Table--
+	{v=2, x=0, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ nop statement; y=3; nop statement; Print(v*10), x=1]
+--Symbol Table--
+	{v=3, x=0, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	4
+--Execution Stack--
+	[]
+--Symbol Table--
+	{v=1, x=0, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ nop statement; y=3; nop statement; Print(v*10), x=1]
+--Symbol Table--
+	{v=3, x=0, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=3, x=1, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ nop statement; y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=3, x=1, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ y=3; nop statement; Print(v*10), nop statement]
+--Symbol Table--
+	{v=3, x=1, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ y=3; nop statement; Print(v*10), nop statement]
+--Symbol Table--
+	{v=3, x=1, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=3, x=1, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ y=3; nop statement; Print(v*10)]
+--Symbol Table--
+	{v=3, x=1, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ nop statement; Print(v*10), y=3]
+--Symbol Table--
+	{v=3, x=1, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ nop statement; Print(v*10), y=3]
+--Symbol Table--
+	{v=3, x=1, y=0}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ nop statement; Print(v*10)]
+--Symbol Table--
+	{v=3, x=1, y=3}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ nop statement; Print(v*10)]
+--Symbol Table--
+	{v=3, x=1, y=3}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ Print(v*10), nop statement]
+--Symbol Table--
+	{v=3, x=1, y=3}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ Print(v*10), nop statement]
+--Symbol Table--
+	{v=3, x=1, y=3}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ Print(v*10)]
+--Symbol Table--
+	{v=3, x=1, y=3}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[ Print(v*10)]
+--Symbol Table--
+	{v=3, x=1, y=3}
+--Output List--
+	[0, 1, 2]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	1
+--Execution Stack--
+	[]
+--Symbol Table--
+	{v=3, x=1, y=3}
+--Output List--
+	[0, 1, 2, 30]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v1; Ref(int) v2; Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v2; Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), Ref(int) v1]
+--Symbol Table--
+	{}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v2; Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), Ref(int) v1]
+--Symbol Table--
+	{}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v2; Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{v1=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v2; Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{v1=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), Ref(int) v2]
+--Symbol Table--
+	{v1=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), Ref(int) v2]
+--Symbol Table--
+	{v1=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{v1=(0,int), v2=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Ref(int) v3; int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{v1=(0,int), v2=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), Ref(int) v3]
+--Symbol Table--
+	{v1=(0,int), v2=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), Ref(int) v3]
+--Symbol Table--
+	{v1=(0,int), v2=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{v1=(0,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ int cnt; new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{v1=(0,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), int cnt]
+--Symbol Table--
+	{v1=(0,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), int cnt]
+--Symbol Table--
+	{v1=(0,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v1,2); new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), new(v1,2)]
+--Symbol Table--
+	{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), new(v1,2)]
+--Symbol Table--
+	{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v2,3); new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), new(v2,3)]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), new(v2,3)]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ new(v3,4); NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), new(v3,4)]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), new(v3,4)]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ NewBarrier(cnt,rH(v2)); fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), NewBarrier(cnt,rH(v2))]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), NewBarrier(cnt,rH(v2))]
+--Symbol Table--
+	{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))); fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1)))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3)), fork( Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1)))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))); Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ Await(cnt); wH(v1,rH(v1)*10); Print(rH(v1))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Await(cnt); Print(rH(v3)), fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2)))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ wH(v1,rH(v1)*10); Print(rH(v1)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Await(cnt); Print(rH(v3)), fork( Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2)))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ wH(v1,rH(v1)*10); Print(rH(v1)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ wH(v1,rH(v1)*10); Print(rH(v1)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Await(cnt); Print(rH(v3))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ wH(v1,rH(v1)*10); Print(rH(v1)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ Await(cnt); wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Print(rH(v3)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ wH(v1,rH(v1)*10); Print(rH(v1)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Print(rH(v3)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ wH(v1,rH(v1)*10); Print(rH(v1)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Print(rH(v3)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ wH(v1,rH(v1)*10); Print(rH(v1))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Print(rH(v3)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ wH(v1,rH(v1)*10); Print(rH(v1))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2)), Await(cnt)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Print(rH(v3))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ Print(rH(v1)), wH(v1,rH(v1)*10)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[ Print(rH(v3))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ Print(rH(v1)), wH(v1,rH(v1)*10)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); wH(v2,rH(v2)*10); Print(rH(v2))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[]
+--File Table--
+	{}
+--Heap--
+	{1=2, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	5
+--Execution Stack--
+	[]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ Print(rH(v1))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); Print(rH(v2)), wH(v2,rH(v2)*10)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[ Print(rH(v1))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); Print(rH(v2)), wH(v2,rH(v2)*10)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=3, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	6
+--Execution Stack--
+	[]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4, 20]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=30, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); Print(rH(v2))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4, 20]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=30, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ wH(v2,rH(v2)*10); Print(rH(v2))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4, 20]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=30, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ Print(rH(v2)), wH(v2,rH(v2)*10)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4, 20]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=30, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ Print(rH(v2)), wH(v2,rH(v2)*10)]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4, 20]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=30, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ Print(rH(v2))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4, 20]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=300, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[ Print(rH(v2))]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4, 20]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=300, 3=4}
+--------END--------
+-------BEGIN-----
+--ID--
+	7
+--Execution Stack--
+	[]
+--Symbol Table--
+	{cnt=1, v1=(1,int), v2=(2,int), v3=(3,int)}
+--Output List--
+	[4, 20, 300]
+--File Table--
+	{}
+--Heap--
+	{1=20, 2=300, 3=4}
+--------END--------
